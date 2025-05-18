@@ -1,1 +1,1 @@
-"""Command-line interface package powered by Typer.""" 
+"""Command-line interface package powered by Typer."""
