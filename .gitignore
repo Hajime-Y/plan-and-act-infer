@@ -18,6 +18,7 @@ venv/
 .idea/
 .DS_Store
 **/.DS_Store
+.cursor/
 
 # テスト/カバレッジ
 .coverage
