@@ -10,4 +10,4 @@ __all__ = [
 
 from .agent_base import AgentBase  # pragma: no cover
 from .memory import Memory  # pragma: no cover
-from .tools import ToolRegistry  # pragma: no cover 
+from .tools import ToolRegistry  # pragma: no cover

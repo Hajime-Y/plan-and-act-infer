@@ -9,4 +9,4 @@ class InferenceGraph:  # pylint: disable=too-few-public-methods
 
     # 具体実装は後続タスクで追加予定
 
-    pass  # pragma: no cover 
+    pass  # pragma: no cover
