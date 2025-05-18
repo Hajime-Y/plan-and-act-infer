@@ -39,13 +39,25 @@ pytest -q
 
 ```
 plan-and-act-infer/
-├── src/                     # アプリケーション本体
+├── src/
 │   └── plan_and_act/
-├── tests/                   # テストコード
-├── configs/                 # 設定ファイル
-├── pyproject.toml           # Poetry 互換メタデータ & 依存定義
-├── uv.lock                  # 依存ロックファイル (uv)
-└── README.md                # このファイル
+│       ├── core/                # Planner / Executor / Memory / Tools (雛形)
+│       │   ├── agent_base.py
+│       │   ├── memory.py
+│       │   └── tools.py
+│       ├── graphs/              # LangGraph 推論フロー（雛形）
+│       │   └── inference_graph.py
+│       ├── mcp/                 # MCP クライアント関連（雛形）
+│       ├── cli/                 # Typer CLI（雛形）
+│       │   └── run.py
+│       └── utils/               # 共通ユーティリティ（未実装）
+├── configs/
+│   └── settings.yaml            # アプリケーション設定
+├── tests/                       # pytest テスト
+│   ├── conftest.py
+│   └── test_dummy.py
+├── .env.example                 # 環境変数のサンプル
+└── ...
 ```
 
 ---

@@ -1,5 +1,7 @@
 [project]
 name = "plan-and-act-infer"
+# PEP 621: src レイアウトでのパッケージ発見を明示
+packages = ["plan_and_act"]
 version = "0.1.0"
 description = "Plan-and-Act推論エージェントのリファレンス実装"
 authors = ["Hajime Yagi <your.email@example.com>"]
