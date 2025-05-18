@@ -1,0 +1,17 @@
+# Application settings (placeholder)
+
+llm:
+  provider: "openai"
+  model: "gpt-4o"
+  temperature: 0.7
+  api_key_env: "OPENAI_API_KEY"
+
+mcp_servers:
+  - name: "default"
+    endpoint: "https://mcp.example.com/api"
+    api_key_env: "MCP_API_KEY"
+
+logging:
+  level: "INFO"
+  format: "[%(asctime)s] %(levelname)s %(name)s: %(message)s"
+  file: null 
